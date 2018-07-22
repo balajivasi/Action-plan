@@ -1,0 +1,501 @@
+h2 {
+    font-size: 19px;
+}
+a:visited {
+	color: #E67D39;
+}
+div.logo {
+	margin: 0 auto;
+	text-align: center;
+}
+.logo img {
+	max-width: 83%;
+}
+body, table, p, input, textarea {
+	line-height: 24px !important;
+}
+.info h2, .page1details h2, .page2details h2, .page3details h2 {
+	padding: 25px 30px 25px 30px;
+}
+.textData {
+	margin-top: 14px !important;
+	font-size: 18px !important;
+}
+.textData p {
+	font-size: 18px !important;
+}
+.howtoreadthisreport.col-lg-10.panel .textData {
+    margin-top: 58px !important;
+}
+.additional-conditions .textData {
+	padding-top: 10px;
+}
+.howtoreadthisreport .solidcircles .textData {
+	margin-top: 20px;
+}
+.howtoreadthisreport .outlinedcircles .textData {
+	margin-top: 20px;
+}
+.howtoreadthisreport .observe .textData {
+	margin-top: 20px;
+}
+.howtoreadthisreport .communicate .textData {
+	margin-top: 20px;
+}
+.howtoreadthisreport .includeincep .textData {
+	margin-top: 20px;
+}
+.howtoreadthisreport .designatespace .textData {
+	margin-top: 20px;
+}
+.howtoreadthisreport .fosterinclusivity .textData {
+	margin-top: 20px;
+}
+.schoolreportfor .three-column .rptdata {
+	font-size: 1.4em !important;
+	font-weight: 600;
+}
+.schoolreportfor .three-column .rptlabel {
+	font-size: .89em;
+	text-transform: uppercase;
+}
+.spdcontent {
+	margin: 40px 40px;
+	padding-top: 138px;
+	padding-bottom: 20px;
+}
+.spdcontent p {
+	padding-bottom: 12px;
+	font-size: 18px !important;
+	line-height: 26px !important;
+}
+.three-column {
+	padding-left: 3.3%;
+	padding-right: 0px;
+	width: 26%;
+}
+.three-column.school-name {
+	width: 33%;
+}
+.SRADate {
+}
+.roundcurv {
+	width: 200px !important;
+}
+.roundcurv span {
+	width: 142px;
+	display: inline-block;
+	padding-top: 55px;
+	height: 84px;
+	border-radius: 169px;
+	text-align: center;
+	font-size: 19px;
+	font-weight: 700;
+	line-height: normal;
+}
+.Staffing .textData {
+	margin-top: -8px !important;
+}
+.Staffing .textDataON {
+	margin-top: -10px !important;
+}
+.Schedule .textData {
+	margin-top: -10px !important;
+}
+.designatespace .textData {
+	margin-top: -10px !important;
+}
+.designatespace span, 
+.fosterinclusivity span {
+    width: 142px;
+    display: inline-block;
+    padding-top: 46px;
+    height: 94px;
+    border-radius: 169px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: normal;
+}
+.EducateCommunity .textData {
+	margin-top: -10px !important;
+}
+.EducateCommunity .roundcurv span {
+	width: 142px;
+	display: inline-block;
+	padding-top: 47px;
+	height: 95px;
+	border-radius: 169px;
+	text-align: center;
+	font-size: 19px;
+	font-weight: 700;
+	line-height: normal;
+}
+.EncourageLearning .textData {
+	margin-top: -8px !important;
+}
+.EncourageLearning .roundcurv span {
+	width: 142px;
+	display: inline-block;
+	padding-top: 49px;
+	height: 94px;
+	border-radius: 169px;
+	text-align: center;
+	font-size: 19px;
+	font-weight: 700;
+	line-height: normal;
+}
+.EncourageLearning .textDataON {
+	margin-top: -10px !important;
+}
+.greenfillerback, .yellowfiller {
+	display: none;
+}
+.greenfillerback h2, .page1details h2, .page2details h2, .page3details h2 {
+	color: #fff !important;
+	text-align: center;
+	font-weight: 700;
+}
+.yellowfiller h2 {
+	color: #444 !important;
+	text-align: center;
+	font-weight: 700;
+}
+.orange {
+	background: #E67D39;
+	color: #fff;
+	border: 7px solid #e67d30;
+}
+.whitebg {
+	background: #fff;
+	color: #e67d30;
+	border: 7px solid #E67D39;
+}
+.bluebg {
+	background-color: #5489C7;
+	color: #fff;
+	border: 7px solid #5489C7;
+}
+.darkbluebackground {
+	background-color: #203a8e;
+}
+.bluebgbackground {
+	background-color: #5489C7;
+}
+.orangeback {
+	background: #E67D39;
+}
+.greenfillerback {
+	background-color: #63bd30;
+}
+.greenfiller {
+	border: 7px solid #63bd30;
+	color: #fff;
+}
+.greenfillerback2 {
+	background-color: #63bd30;
+}
+.offClass .bluebg {
+	color: #5489C7;
+}
+.offClass .orange {
+	color: #e67d30;
+}
+.offClass .greenfiller {
+	color: #63bd30;
+}
+.offClass .bluebg, .offClass .orange, .offClass .greenfiller {
+	background: #fff;
+}
+.offClass .panel, .onClass .panel {
+	display: none;
+}
+.panel {
+	padding: 22px 0px 22px 22px !important;
+	width: 94% !important;
+}
+header, footer {
+	display: inline-block;
+	padding: 22px 2% 10px 2%;
+	width: 96%;
+}
+footer .pullleft {
+	margin-right: 50px;
+}
+.pageOne {
+	width: 75%;
+	margin: auto;
+	color: #fff;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.headerpage .square {
+	padding-top: 20px;
+	display: none !important;
+}
+.pageOne span {
+	color: #6ea542;
+	line-height: 37px;
+}
+.pageOne span.step2 {
+	color: #dd7e2f;
+}
+.pageOne label {
+	font-size: 30px;
+	color: #fff;
+	width: 100%;
+	line-height: 30px;
+}
+.pageOne input {
+	width: 93%;
+	padding: 10px;
+	background: none;
+	color: #fff;
+	border: 0px;
+	border-bottom: 2px solid #fff;
+}
+.pageOne span.example {
+	font-size: 13px;
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+	color: #fff;
+}
+.rightpanelheader {
+	display: none;
+}
+.options {
+	text-align: right;
+	display: none;
+}
+.options img {
+	cursor: pointer;
+}
+.optionLinks {
+	position: absolute;
+	Right: 25px;
+	display: none;
+	top: 30px;
+	width: 120px;
+	padding: 10px;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+.optionLinks ul {
+	flex: left;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+}
+.optionLinks ul li {
+	flex: left;
+	width: 100%;
+	padding: 5px 0;
+}
+.actionPlan {
+	margin-top: 110px;
+	text-align: right;
+}
+.logobox {
+	display: flex;
+	float: left;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+.nextpage {
+	display: none;
+}
+.mt-15per {
+	margin-top: 15%;
+}
+.nodata, .whitefiller, footer {
+	display: none;
+}
+.nodata .msg {
+	padding: 20px 30px;
+	margin-top: 80px;
+	margin-bottom: 40px;
+}
+.nodata .msg p.header {
+	display: block;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 26px;
+	text-align: center;
+}
+.loadingdata {
+	color: #fff;
+	text-align: center;
+}
+.subpagedetails h2 {
+	text-align: center;
+}
+.subpagedetails2 h2 {
+	text-align: left;
+	font-weight: 600;
+}
+.pagelink {
+	text-align: center;
+	padding: 16px 0 16px 0;
+	color: #fff;
+	background: #5489C7 !important;
+}
+.pagelink:hover {
+	text-align: center;
+	padding: 16px 0 16px 0;
+	background: #203a8e !important;
+}
+.subpagedetails {
+	width: 100%;
+	display: none;
+}
+.pagelink h2 {
+	color: #fff;
+	cursor: pointer;
+	margin: 8px;
+	font-weight: 700;
+	width: 95%;
+	padding-bottom: 0;
+}
+.pagelink h2:hover {
+}
+.subpage1details, .subpage2details, .subpage3details {
+	min-height: 100px;
+	display: inline-block;
+	width: 100%;
+}
+
+@media only screen and (max-width : 6000px) {
+body {
+	width: 1200px;
+	margin: 0 auto;
+}
+.logomobile .logobox {
+	display: flex;
+	float: left;
+	position: relative;
+	left: -54px;
+}
+}
+
+@media only screen and (max-width : 1200px) {
+body {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.howtoreadthisreport.col-lg-10.panel .textData {
+    margin-top: 14px !important;
+}
+}
+
+@media only screen and (min-width : 450px) and (max-width : 1000px) {
+.spdcontent {
+	margin: 40px 40px;
+	padding-top: 184px;
+	padding-bottom: 20px;
+}
+footer .pullleft, footer .pullright {
+	margin: 0 auto !important;
+	width: 70%!important;
+	text-align: center !important;
+	float: none !important;
+	padding-bottom: 24px;
+}
+.onClass .panel .col-lg-7, .offClass .panel .col-lg-7, .spdcontent .textData {
+	width: 96%;
+}
+.logobox.col-lg-3 {
+	width: 46%;
+}
+}
+
+@media (max-width:1000px) {
+.roundcurv {
+	width: 96% !important;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.spdcontent {
+	margin: 40px 40px;
+	padding-top: 38px;
+	padding-bottom: 20px;
+	display: table;
+}
+.logomobile {
+	margin-top: -24px;
+	width: 100%;
+}
+.logomobile .logo img {
+	max-width: 85%;
+}
+.actionPlan img {
+	margin-top: 0;
+	max-width: 140%;
+	display: table;
+	top: -7px;
+	position: relative;
+	left: 95%;
+}
+.three-column {
+	width: 92%;
+	padding-bottom: 10px;
+}
+.three-column.school-name {
+	width: 92%;
+}
+.SRADate {
+	width: 92%;
+}
+.width800 {
+	width: 100% !important;
+}
+.mt-15per {
+	margin-top: 45%;
+}
+.textData {
+	width: 100%;
+}
+.onClass .panel .col-lg-7, .offClass .panel .col-lg-7, .spdcontent .textData {
+	width: 86%;
+}
+footer .pullleft, footer .pullright {
+	    margin: 0 auto !important;
+    width: 70%!important;
+    text-align: center !important;
+    float: none !important;
+    padding-bottom: 24px;
+}
+footer .pullleft img, footer .pullright img {
+	max-width: 75%;
+}
+.pagelink h2 {
+	font-size: 18px;
+}
+.actionPlan {
+	margin-top: 0px;
+}
+.headerpage .pullright.rightpanelheader {
+	float: none !important;
+}
+}
+
+@media (max-width:450px) {
+footer .pullleft img, footer .pullright img {
+	max-width: 100%;
+}
+.pagelink h2 {
+	font-size: 18px;
+}
+.actionPlan {
+	margin-top: 0px;
+}
+.headerpage .pullright.rightpanelheader {
+	float: none !important;
+}
+}

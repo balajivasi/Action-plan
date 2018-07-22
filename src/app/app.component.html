@@ -1,20 +1,28 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+<div id="wrapper">
+  <!-- Header Start -->
+  <app-header></app-header>
+  <!-- Section Start -->
+  <section class="whitefiller">
+     <app-school-reports></app-school-reports>
+     <app-h2-title [pagetext]="'LEARN MORE ABOUT THIS REPORT >'" 
+                   [bannerstyle]="'darkbluebackground pagelink'"></app-h2-title>
+     <div class="subpagedetails dnone">
+        <app-h2-title [pagetext]="'COLLABORATIVE TEACHERS AND RIGOROUS INSTRUCTION'" 
+                  [bannerstyle]="'orangeback page1details'"></app-h2-title>
+        <div class="subpage1details col-lg-10"> Include content from the PE Works "splash" page. </div>
+        <app-h2-title [pagetext]="'STRONG FAMILY COMMUNITY TIES'" 
+                      [bannerstyle]="'bluebgbackground page2details'"></app-h2-title>
+        <div class="subpage2details col-lg-10"> Include content from the PE Works "splash" page. </div>
+        <app-h2-title [pagetext]="'SUPPORTIVE ENVIRONMENTS'" 
+                      [bannerstyle]="'greenfillerback2 page3details'"></app-h2-title>
+        <div class="subpage3details col-lg-10"> Include content from the PE Works "splash" page. </div>
+     </div>
+     <app-report-details></app-report-details>
+     <!-- MainPage Layout start -->
+     <app-master-page></app-master-page>
+     <!-- MainPage Layout End --> 
+  </section>
+  <!-- Footer Start -->
+  <app-footer></app-footer>
+  <p class="col-lg-10">&nbsp;</p>
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
-

@@ -1,0 +1,110 @@
+@import url("standard.css");
+@import url("webStyles.css");
+/*---------------------------------------------------------- */
+body {
+	background: #203a8e;
+}
+#wrapper {
+    margin: auto;
+    background: #203a8e;
+}
+section {
+    display: inline-block;
+    width: 100%;
+}
+h2{
+    font-weight: inherit; 
+}
+.square{
+	padding-top: 40px;
+}
+.nobg{
+	background: none;
+	border: 0px;
+}
+/*     Button Color Exception - Please do not remove. -TS    */
+.btn {
+	border-radius: 0px;
+}
+.btn-default {
+	background: #fff !important;
+	color: #333 !important;
+	border-color: #CCCCCC !important;
+}
+.btn-default:hover {
+	background: #ebebeb !important;
+	border-color: #adadad !important;
+}
+.btn-primary {
+	background: none repeat scroll 0 0 #80b34e !important;
+	border-color: #357ebd !important;
+	color: #fff !important;
+}
+.btn-primary:hover {
+	background: #34bc3a !important;
+	border-color: #285e8e !important;
+}
+.width100full{
+    width: 100%;
+}
+.Posting{
+    padding: 30px;
+}
+/*---------------------------------------------------------- */
+
+/* responsive-table Start*/
+.responsive-table table {
+	border: 1px solid #ddd;
+}
+.responsive-table table thead tr th {
+	background-color: #f5f5f5;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+.responsive-table table tbody tr td {
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	padding: 8px;
+}
+.responsive-table table tbody tr:last-child td {
+
+	border-bottom: 0px;
+}
+.responsive-table table tr:nth-child(even) td {
+	background-color: #f5f5f5;
+}
+/* responsive-table End */
+
+@media (max-width:1280px) {
+
+
+
+}
+
+
+
+@media (max-width:1470px) {
+
+
+}
+
+
+
+
+
+
+
+@media (max-width:1150px) {
+
+
+}
+
+@media (max-width:970px) {
+
+}
+@media (max-width:769px) {
+    
+}
+@media (max-width:600px) {
+   
+}
