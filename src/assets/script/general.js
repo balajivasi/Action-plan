@@ -9,7 +9,7 @@ function ShowPage(){
     $('.logobox').removeClass('col-lg-10').addClass('logomobile')
     $('.whitefiller,footer,.rightpanelheader').fadeIn('slow')
 }
-
+/*
 var getUrlParameter = function getUrlParameter(sParam) {
     var sPageURL = decodeURIComponent(window.location.search.substring(1)),
         sURLVariables = sPageURL.split('&'),
@@ -24,7 +24,7 @@ var getUrlParameter = function getUrlParameter(sParam) {
         }
     }
 };
-
+*/
 $('.options img').on('click',function(){
     $('.optionLinks').toggle()
 })

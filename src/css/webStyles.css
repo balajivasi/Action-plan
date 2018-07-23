@@ -313,9 +313,9 @@ img {
 .mt-15per {
 	margin-top: 15%;
 }
-/*.nodata, .whitefiller, footer {
+.whitefiller, footer {
 	display: none;
-}*/
+}
 .nodata .msg {
 	padding: 20px 30px;
 	margin-top: 80px;
