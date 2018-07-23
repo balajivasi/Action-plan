@@ -148,9 +148,9 @@ body, table, p, input, textarea {
 .EncourageLearning .textDataON {
 	margin-top: -10px !important;
 }
-.greenfillerback, .yellowfiller {
+/*.greenfillerback, .yellowfiller {
 	display: none;
-}
+}*/
 .greenfillerback h2, .page1details h2, .page2details h2, .page3details h2 {
 	color: #fff !important;
 	text-align: center;
@@ -207,9 +207,10 @@ body, table, p, input, textarea {
 .offClass .bluebg, .offClass .orange, .offClass .greenfiller {
 	background: #fff;
 }
+/*
 .offClass .panel, .onClass .panel {
 	display: none;
-}
+}*/
 .panel {
 	padding: 22px 0px 22px 22px !important;
 	width: 94% !important;
@@ -312,9 +313,9 @@ img {
 .mt-15per {
 	margin-top: 15%;
 }
-.nodata, .whitefiller, footer {
+/*.nodata, .whitefiller, footer {
 	display: none;
-}
+}*/
 .nodata .msg {
 	padding: 20px 30px;
 	margin-top: 80px;

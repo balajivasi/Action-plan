@@ -10,6 +10,9 @@ import { OffReportComponent } from './off-report/off-report.component';
 import { OnReportComponent } from './on-report/on-report.component';
 import { ReportDetailsComponent } from './report-details/report-details.component';
 import { MasterPageComponent } from './master-page/master-page.component';
+import { DetailsItemComponent } from './details-item/details-item.component';
+import { HttpModule } from '@angular/http';
+
 
 @NgModule({
   declarations: [
@@ -21,10 +24,12 @@ import { MasterPageComponent } from './master-page/master-page.component';
     OffReportComponent,
     OnReportComponent,
     ReportDetailsComponent,
-    MasterPageComponent
+    MasterPageComponent,
+    DetailsItemComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpModule
   ],
   providers: [],
   bootstrap: [AppComponent]

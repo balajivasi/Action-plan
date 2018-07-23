@@ -59,7 +59,7 @@ $('.greenfiller').on('click',function(){
     $('.onClass').toggle()
 })
 
-	$.ajax({
+	/*$.ajax({
 	  url: "assets/script/data.json",
 	  dataType: 'json',
 	  contentType: 'application/json',
@@ -76,9 +76,9 @@ $('.greenfiller').on('click',function(){
             if(listData==0){
                 $('.nodata').show()
             }else{
-                $('.schoolName').html(listData[0].SName)
-                $('.PrincipalName').html(listData[0].PName)
-				$('.sra').html(listData[0].RAD)
+                //$('.schoolName').html(listData[0].SName)
+                //$('.PrincipalName').html(listData[0].PName)
+				//$('.sra').html(listData[0].RAD)
 
                 if(listData[0].Staffing==="On"){
                     $('.onClass .Staffing').show()
@@ -134,6 +134,7 @@ $('.greenfiller').on('click',function(){
                     $('.offClass .FosterInclusivity').show()
                 }
             }
+    
 for (var key in listData[0]) {
                     if (listData[0].hasOwnProperty(key)) {
                         var value = listData[0][key];
@@ -160,8 +161,8 @@ for (var key in listData[0]) {
         
 	  }
 	})
-
-$('.staffpanel,.Schedule,.EncourageLearning,.EducateCommunity').hide()
+*/
+//$('.staffpanel,.Schedule,.EncourageLearning,.EducateCommunity').hide()
 
 
 })

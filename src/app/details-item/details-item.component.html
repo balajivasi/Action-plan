@@ -1,0 +1,31 @@
+<div class="howtoreadthisreport {{type}} col-lg-10 panel">
+    <div class="col-lg-2 ml-20 pt-10 pl-20 roundcurv solidcircles"> <span class="{{background}}">{{title}}</span> </div>
+    <!-- Staffing Start -->
+    <div class="col-lg-7 textData" *ngIf="type==='Staffing'">
+       <p><strong>Solid circles indicate that the condition is in place.</strong> Action steps have been provided in order for you to maintain this condition.</p>
+    </div>
+    <!-- -->
+    <div class="col-lg-7 textData" *ngIf="type==='offClass'">
+        <p><strong>Outlined circles indicate that the condition is not fully in place or was not observed.</strong> Action steps have been provided in order for you to achieve this condition.</p>
+     </div>
+    <!-- -->
+    <div class="col-lg-7 textData" *ngIf="type==='Observe'">
+        <p >In year two of our plan we will invite you to professional learning opportunities and provide you with guidance observing PE to ensure content meets standards and grade level outcomes.</p>
+     </div>
+    <!-- -->
+    <div class="col-lg-7 textData" *ngIf="type==='communicate'">
+        <p>Your parent communications ensure that students are prepared for PE, and that families can reinforce healthy habits outside of school. We will highlight what you do to inform families about when PE is scheduled, what students will learn, how they progress, and the benefits of PE and fitness.</p>
+     </div>
+    <!-- -->
+    <div class="col-lg-7 textData" *ngIf="type==='includeincep'">
+        <p>Including wellness in your comprehensive education plan demonstrates a commitment to educating the whole child, and shows what your leadership team does to prioritize instructional requirements that enables students to learn and practice healthy habits.  We will work with your PE staff and wellness champions to support goals and engage your school community in meeting them.</p>
+     </div>
+    <!-- -->
+    <div class="col-lg-7 textData" *ngIf="type==='designatespace'">
+        <p>Your use of space inside and outside of your building ensures that students can safely participate in quality PE.  We will let you know about additional tools, partnerships, or resources that can help your PE staff maximize physical activity spaces.</p>
+     </div>
+     <!-- -->
+     <div class="col-lg-7 textData" *ngIf="type==='fosterinclusivity'">
+        <p>Your PE environment encourages students to accept individual differences and develop inclusive behaviors.  Staff model what students are expected to learn as part of PE.  We will continue to offer your team professional development and resources on inclusivity as a core value for participation and learning in PE.</p>
+     </div>
+ </div>
